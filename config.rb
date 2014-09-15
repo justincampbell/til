@@ -8,9 +8,9 @@ set :slim, layout_engine: :slim
 
 activate :blog do |blog|
   # blog.layout = "post.html"
-  # blog.permalink = "{date}/{slug}"
+  blog.permalink = "{slug}"
   # blog.publish_future_dated = true
-  # blog.sources = "episodes/{episode}.html"
+  blog.sources = "things/{slug}.html"
   # blog.tag_template = "tag.html"
   # blog.taglink = "tag/{tag}"
 end
