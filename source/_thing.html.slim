@@ -1,2 +1,7 @@
 .thing
-  .body = thing.body
+  .body
+    = markdown File.read(thing.source_file).split("---").last
+    = link_to thing.date,
+      thing.url,
+      class: :timestamp,
+      title: thing.date.iso8601
