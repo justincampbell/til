@@ -125,6 +125,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   bourbon
   middleman
   middleman-blog
