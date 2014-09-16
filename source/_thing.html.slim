@@ -1,7 +1,7 @@
 .thing
   .body
     = markdown File.read(thing.source_file).split("---").last
-    = link_to thing.date.strftime("%B #{thing.date.day.ordinalize}, %Y"),
+    = link_to thing.date.strftime("%B #{thing.date.day.to_ordinal}, %Y"),
       thing.url,
       class: :timestamp,
       title: thing.date.iso8601
