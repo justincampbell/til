@@ -1,3 +1,5 @@
+Slim::Engine.disable_option_validator!
+
 Time.zone = 'Eastern Time (US & Canada)'
 
 set :css_dir, 'stylesheets'
