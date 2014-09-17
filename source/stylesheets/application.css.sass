@@ -5,103 +5,25 @@
 @import url(http://fonts.googleapis.com/css?family=Give+You+Glory)
 @import url(http://fonts.googleapis.com/css?family=Quando)
 
-$dark-gray: #333
 $orange: #ff8000
-$white: white
-
-$link-color: $dark-gray
-$link-hover-color: $orange
-$text-color: $dark-gray
-
-@mixin shadow-border($size)
-  @include box-shadow(0px 0px 0px $size black)
 
 body
-  background: #ddd
   font: 13pt $helvetica
 
 a
-  color: #066EAC
   text-decoration: none
+
+header
+  text-align: center
 
 h1
   color: black
   font: 2em 'Give You Glory' cursive
-  text-align: center
 
-#byline
-  color: #333
+h2#byline
   font: 0.8em 'Quando' serif
   margin: -2.5em 0 2em 3em
-  text-align: center
   a
     background-color: $orange
     color: white
     padding: 0.2em
-
-.thing
-  margin-bottom: 4em
-
-  .body
-    background: #eee
-    border-bottom: 1px #999 solid
-    border-top: 1px #999 solid
-    padding: 0.5em
-
-    p, pre
-      margin: 1em 0
-
-    code, pre
-      background: #2B2B2B
-      border-radius: 0.25em
-      color: #E6E1DC
-      font-face: $monospace
-
-    code
-      margin: 0 0.25em 0 0
-      padding: 0.125em 0.25em
-
-    pre
-      padding: 0.25em
-
-    img
-      display: block
-      margin: 0 auto
-      max-width: 100%
-
-  .timestamp, .edit
-    color: #666
-    float: right
-    font-size: golden-ratio(1em, -1)
-    margin: golden-ratio(1em, -1)
-
-.pagination
-  margin-bottom: 4em
-  text-align: center
-
-@media all and (min-width: 961px)
-  body
-    font: 16pt $helvetica
-
-  .wrapper
-    margin: 0 auto
-    max-width: 960px
-    padding: 0
-    width: 100%
-
-  h1
-    font-size: 3em
-
-  .body > code
-    white-space: nowrap
-
-  .thing
-    margin-bottom: 4em
-
-    .body
-      border-radius: 0.25em
-      border: 1px #999 solid
-
-@media all and (min-width: 1153px)
-  #sidebar
-    display: block

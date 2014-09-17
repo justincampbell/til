@@ -5,9 +5,10 @@ html
     = stylesheet_link_tag :application
     = tag :meta, name: :viewport, content: 'width=device-width'
     = tag :link, type: :atom, href: feedburner_url, title: site_name
-  body#til
+  body
     .wrapper
-      = link_to "/" do
-        h1 = site_name
-      p#byline by #{link_to "Justin Campbell", "//justincampbell.me"}
+      header
+        = link_to "/" do
+          h1 = site_name
+        h2#byline by #{link_to "Justin Campbell", "//justincampbell.me"}
       = yield
