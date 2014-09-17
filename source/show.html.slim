@@ -1,0 +1,6 @@
+= wrap_layout :layout do
+  .thing
+    .body = markdown File.read(thing.source_file).split("---").last
+    .timestamp = link_to thing.date.strftime("%B #{thing.date.day.to_ordinal}, %Y"),
+      thing.url,
+      title: thing.date.iso8601

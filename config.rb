@@ -11,7 +11,7 @@ set :slim, layout_engine: :slim
 # page '/feed.xml', layout: false
 
 activate :blog do |blog|
-  blog.layout = "thing.html"
+  blog.layout = "show.html"
   blog.permalink = "{slug}"
   blog.sources = "things/{slug}.html"
 end
@@ -40,6 +40,10 @@ helpers do
 
   def site_name
     "Today, I Learned..."
+  end
+
+  def thing
+    current_article
   end
 
   def things
