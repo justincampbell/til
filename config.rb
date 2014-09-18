@@ -11,7 +11,7 @@ set :slim, layout_engine: :slim
 # page '/feed.xml', layout: false
 
 activate :blog do |blog|
-  blog.layout = "show.html"
+  blog.layout = "_show.html"
   blog.permalink = "{slug}"
   blog.sources = "things/{slug}.html"
 end
