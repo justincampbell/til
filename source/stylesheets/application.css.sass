@@ -7,12 +7,13 @@
 
 $orange: #ff8000
 
+$border-color: $orange
 $code-bg: #2b2b2b
 $code-fg: #e6e1dc
 $link-color: blue
 $page-bg: white
+$row-color: #333
 $thing-bg: white
-$border-color: $orange
 
 body
   background-color: $page-bg
@@ -41,11 +42,28 @@ h2#byline
     color: white
     padding: 0.2em
 
+.index
+  background-color: $border-color
+  border-top: 1px solid transparent
+  border-bottom: 1px solid transparent
+
+  .row
+    background-color: $thing-bg
+    margin: 0.5em 0
+    padding: 1em
+
+  .title
+    overflow: hidden
+    text-overflow: ellipsis
+
+  a
+    color: $row-color
+
 .thing
   .body
     background: $thing-bg
-    border-bottom: 1px $border-color solid
-    border-top: 1px $border-color solid
+    border-bottom: 0.5em $border-color solid
+    border-top: 0.5em $border-color solid
     padding: 0.5em
 
     img
@@ -53,9 +71,8 @@ h2#byline
       margin: 0 auto
       max-width: 100%
 
-  .timestamp
-    margin: 1em
-    text-align: right
+.timestamp
+  text-align: right
 
 p, pre
   margin: 1em 0

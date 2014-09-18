@@ -1,6 +1,7 @@
-- things.each do |thing|
-  .thing-row
+.index
+  - things.each do |thing|
     = link_to thing.url do
-      .title = thing.title
-      .timestamp title=thing.date.iso8601
-        = thing.date.strftime("%B #{thing.date.day.to_ordinal}, %Y")
+      .row
+        .title = thing.title
+        .timestamp title=thing.date.iso8601
+          = thing.date.strftime("%B #{thing.date.day.to_ordinal}, %Y")
