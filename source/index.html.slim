@@ -3,5 +3,5 @@
     = link_to thing.url do
       .row
         .title = thing.title
-        .timestamp title=thing.date.iso8601
+        small.timestamp title=thing.date.iso8601
           = thing.date.strftime("%B #{thing.date.day.to_ordinal}, %Y")
