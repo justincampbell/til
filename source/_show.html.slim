@@ -1,4 +1,5 @@
 = wrap_layout :layout do
+  small.back = link_to "< All", "/"
   .thing
     .body = markdown File.read(thing.source_file).split("---").last
     small.timestamp

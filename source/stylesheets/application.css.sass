@@ -13,9 +13,9 @@ $code-bg: #2b2b2b
 $code-fg: #e6e1dc
 $link-color: blue
 $page-bg: white
+$small-color: #666
 $text-color: #333
 $thing-bg: white
-$timestamp-color: #666
 
 body
   background-color: $page-bg
@@ -77,10 +77,15 @@ h2#byline
       margin: 0 auto
       max-width: 100%
 
-.timestamp, .timestamp > a
-  color: $timestamp-color
+small, small > a
+  color: $small-color
   display: block
   margin: 0.5em
+
+.back
+  text-align: left
+
+.timestamp
   text-align: right
 
 p, pre
