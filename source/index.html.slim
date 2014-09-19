@@ -1,5 +1,9 @@
+- first_thing, *other_things = things
+
+= partial "_thing", locals: { thing: first_thing }
+
 .index
-  - things.each do |thing|
+  - other_things.each do |thing|
     = link_to thing.url do
       .row
         .title = thing.title
