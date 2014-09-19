@@ -3,8 +3,8 @@ html
   head
     title = title
     = stylesheet_link_tag :application
+    = tag :link, href: feedburner_url, rel: :alternate, title: site_name, type: 'application/atom+xml'
     = tag :meta, name: :viewport, content: 'width=device-width'
-    = tag :link, type: :atom, href: feedburner_url, title: site_name
   body
     .wrapper
       header

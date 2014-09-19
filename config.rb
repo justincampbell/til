@@ -8,7 +8,7 @@ set :images_dir, 'images'
 
 set :slim, layout_engine: :slim
 
-# page '/feed.xml', layout: false
+page '/index.atom', layout: false
 
 activate :blog do |blog|
   blog.layout = "show.html"
@@ -34,12 +34,32 @@ class MarkdownRenderer < Redcarpet::Render::HTML
 end
 
 helpers do
+  def author_name
+    "Justin Campbell"
+  end
+
+  def author_email
+    "justin@justincampbell.me"
+  end
+
+  def author_url
+    "http://justincampbell.me"
+  end
+
   def feedburner_url
     "http://feeds.feedburner.com/justincampbell/til"
   end
 
+  def github_url
+    "https://github.com/justincampbell/til"
+  end
+
   def site_name
     "Today, I Learned..."
+  end
+
+  def site_url
+    "http://til.justincampbell.me"
   end
 
   def thing
@@ -52,6 +72,10 @@ helpers do
 
   def title
     current_page.data.title || site_name
+  end
+
+  def url(path = nil)
+    [site_url, path].compact.join('/')
   end
 
   def markdown(md, options={})
