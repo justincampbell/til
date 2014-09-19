@@ -1,5 +1,5 @@
 .thing
-  .body = markdown File.read(thing.source_file).split("---").last
+  .body = markdown remove_frontmatter(File.read(thing.source_file))
   small.timestamp
     = link_to thing.date.strftime("%B #{thing.date.day.to_ordinal}, %Y"),
       thing.url,

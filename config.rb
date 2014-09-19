@@ -91,4 +91,9 @@ helpers do
 
     result.gsub(/twitter:@(\w+)/, "[@\\1](#{twitter_url_prefix}\\1)")
   end
+
+  def remove_frontmatter(text)
+    delimiter = '---'
+    text.split(delimiter).drop(2).join(delimiter)
+  end
 end
