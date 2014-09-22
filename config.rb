@@ -14,6 +14,8 @@ activate :blog do |blog|
   blog.layout = "show.html"
   blog.permalink = "{slug}"
   blog.sources = "things/{slug}.html"
+  blog.tag_template = "tag.html"
+  blog.taglink = "tag/{tag}"
 end
 
 configure :build do
@@ -60,6 +62,10 @@ helpers do
 
   def site_url
     "http://til.justincampbell.me"
+  end
+
+  def tags
+    blog.tags.keys.sort
   end
 
   def thing

@@ -12,6 +12,8 @@ $code-fg: #e6e1dc
 $link-color: blue
 $page-bg: white
 $small-color: #666
+$current-tag-color: $orange
+$tag-color: black
 $text-color: #333
 $thing-bg: white
 
@@ -46,11 +48,34 @@ h2#byline
     color: white
     padding: 0.2em
 
+.tags
+  list-style-type: none
+  text-align: center
+  white-space: normal
+
+  li
+    display: inline-block
+    margin: 0.25em
+
+  a, span
+    color: white
+    display: inline-block
+    font: 1em 'Quando' serif
+    padding: 0.25em
+
+  a
+    background: $tag-color
+
+    &:hover
+      background: $current-tag-color
+
+  span
+    background: $current-tag-color
+
 .index
   background-color: $border-color
   border-top: 1px solid transparent
   border-bottom: 1px solid transparent
-  margin-top: 4em
 
   .row
     background-color: $thing-bg

@@ -1,13 +1,13 @@
-- first_thing, *other_things = things
-
-= partial "_thing", locals: { thing: first_thing }
-
 ul.tags
   - tags.each do |tag|
-    li = link_to tag, tag_path(tag)
+    li.tag
+      - if tag == tagname
+        span = tag
+      - else
+        = link_to tag, "/tag/#{tag}"
 
 .index
-  - other_things.each do |thing|
+  - articles.each do |thing|
     = link_to thing.url do
       .row
         .title = thing.title
