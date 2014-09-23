@@ -1,6 +1,7 @@
 ---
 date: 2012-10-09
 slug: using-source-rubygems-in-your-gemfile
+tags: ruby
 title: Using source :rubygems in your Gemfile
 ---
 

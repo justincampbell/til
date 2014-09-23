@@ -1,6 +1,7 @@
 ---
 date: 2012-10-29
 slug: forward-ports-without-touching-your-router-with-natman
+tags: tools
 title: Forward ports without touching your router
 ---
 

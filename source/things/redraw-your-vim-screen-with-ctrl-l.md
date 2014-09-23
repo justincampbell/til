@@ -1,6 +1,7 @@
 ---
 date: 2012-10-16
 slug: redraw-your-vim-screen-with-ctrl-l
+tags: shell,vim
 title: Redraw your VIM screen with Ctrl+L
 ---
 

@@ -1,6 +1,7 @@
 ---
 date: 2012-10-25
 slug: git-commit-v-shows-you-the-currently-staged-diff-in-your-editor
+tags: git
 title: git commit -v shows you the currently staged diff in your editor
 ---
 

@@ -1,6 +1,7 @@
 ---
 date: 2012-10-11
 slug: ctrl-t-shows-you-what-your-terminal-is-doing
+tags: shell
 title: Ctrl+T shows you what your terminal is doing
 ---
 

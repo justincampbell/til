@@ -1,6 +1,7 @@
 ---
 date: 2013-12-02
 slug: start-an-http-server-with-ruby-run
+tags: ruby
 title: Start an HTTP server with ruby -run
 ---
 

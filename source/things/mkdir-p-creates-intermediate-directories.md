@@ -1,6 +1,7 @@
 ---
 date: 2012-10-02
 slug: mkdir-p-creates-intermediate-directories
+tags: shell
 title: mkdir -p creates intermediate directories
 ---
 

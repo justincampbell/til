@@ -1,6 +1,7 @@
 ---
 date: 2013-11-01
 slug: zoomwin-for-vim
+tags: vim
 title: ZoomWin for Vim
 ---
 

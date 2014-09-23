@@ -1,6 +1,7 @@
 ---
 date: 2012-12-03
 slug: use-vagrant-hostmaster-to-automatically-update-etc-hosts
+tags: tools
 title: Use vagrant-hostmaster to automatically update /etc/hosts
 ---
 

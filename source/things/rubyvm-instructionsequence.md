@@ -1,6 +1,7 @@
 ---
 date: 2013-07-05
 slug: rubyvm-instructionsequence
+tags: ruby
 title: RubyVM::InstructionSequence
 ---
 

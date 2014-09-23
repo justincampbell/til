@@ -1,6 +1,7 @@
 ---
 date: 2013-04-08
 slug: rake-prereqs
+tags: ruby
 title: rake prereqs
 ---
 

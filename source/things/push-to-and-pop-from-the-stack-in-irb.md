@@ -1,6 +1,7 @@
 ---
 date: 2013-08-12
 slug: push-to-and-pop-from-the-stack-in-irb
+tags: ruby
 title: Push to and pop from the workspace stack in IRB
 ---
 

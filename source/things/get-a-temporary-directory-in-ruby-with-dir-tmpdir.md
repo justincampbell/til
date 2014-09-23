@@ -1,6 +1,7 @@
 ---
 date: 2012-10-17
 slug: get-a-temporary-directory-in-ruby-with-dir-tmpdir
+tags: ruby
 title: Get a temporary directory in Ruby
 ---
 

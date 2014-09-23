@@ -1,6 +1,7 @@
 ---
 date: 2013-11-05
 slug: close-all-other-vim-buffers
+tags: vim
 title: Close all other Vim buffers
 ---
 

@@ -1,6 +1,7 @@
 ---
 date: 2013-05-13
 slug: vim-zt
+tags: vim
 title: Vim zt
 ---
 

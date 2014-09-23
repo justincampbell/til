@@ -1,6 +1,7 @@
 ---
 date: 2013-06-17
 slug: use-ctrl-f-to-bring-up-history
+tags: shell
 title: Use Ctrl+F to bring up history
 ---
 

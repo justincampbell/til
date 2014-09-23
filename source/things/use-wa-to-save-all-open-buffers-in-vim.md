@@ -1,6 +1,7 @@
 ---
 date: 2012-10-31
 slug: use-wa-to-save-all-open-buffers-in-vim
+tags: vim
 title: Use :wa to save all open buffers in Vim
 ---
 

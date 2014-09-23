@@ -1,6 +1,7 @@
 ---
 date: 2013-04-16
 slug: double-click-a-surround-in-terminal
+tags: shell,tools
 title: Double-click a surround
 ---
 

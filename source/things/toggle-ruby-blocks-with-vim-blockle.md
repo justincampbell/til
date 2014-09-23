@@ -1,6 +1,7 @@
 ---
 date: 2014-02-11
 slug: toggle-ruby-blocks-with-vim-blockle
+tags: ruby,vim
 title: Toggle Ruby block syntax with vim-blockle
 ---
 

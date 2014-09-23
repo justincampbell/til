@@ -1,6 +1,7 @@
 ---
 date: 2012-12-20
 slug: create-an-ackrc-file
+tags: shell,tools
 title: Create an ackrc file
 ---
 

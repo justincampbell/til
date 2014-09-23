@@ -1,6 +1,7 @@
 ---
 date: 2012-10-04
 slug: search-all-files-with-ack-a
+tags: shell,tools
 title: Search all files with ack -a
 ---
 

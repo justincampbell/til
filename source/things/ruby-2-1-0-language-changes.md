@@ -1,6 +1,7 @@
 ---
 date: 2013-09-23
 slug: ruby-2-1-0-language-changes
+tags: ruby
 title: Ruby 2.1.0 Language Changes
 ---
 

@@ -1,6 +1,7 @@
 ---
 date: 2013-09-09
 slug: edit-multiple-things-at-once-in-vim
+tags: vim
 title: Edit multiple things at once in VIM
 ---
 

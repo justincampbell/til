@@ -1,6 +1,7 @@
 ---
 date: 2012-10-24
 slug: install-gist-vim-to-quickly-share-code-snippets
+tags: git,vim
 title: Install gist-vim to quickly share code snippets
 ---
 

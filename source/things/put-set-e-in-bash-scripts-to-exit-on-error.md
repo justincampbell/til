@@ -1,6 +1,7 @@
 ---
 date: 2013-04-01
 slug: put-set-e-in-bash-scripts-to-exit-on-error
+tags: shell
 title: Put set -e in bash scripts to exit on error
 ---
 

@@ -1,6 +1,7 @@
 ---
 date: 2013-06-11
 slug: kill-a-process-by-name-with-pkill
+tags: shell
 title: Kill a process by name with pkill
 ---
 

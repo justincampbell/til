@@ -1,6 +1,7 @@
 ---
 date: 2012-10-03
 slug: validate-format-json-by-piping-to-python-m-json-tool
+tags: python,shell
 title: Validate/format JSON by piping to python -m json.tool
 ---
 

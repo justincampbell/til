@@ -1,6 +1,7 @@
 ---
 date: 2013-09-30
 slug: git-can-find-refs-by-relative-time
+tags: git
 title: Git can find refs by relative time
 ---
 

@@ -1,6 +1,7 @@
 ---
 date: 2012-10-03
 slug: manage-vim-packages-with-vundle
+tags: vim
 title: Manage VIM packages with Vundle
 ---
 

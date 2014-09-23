@@ -1,6 +1,7 @@
 ---
 date: 2013-09-19
 slug: run-vimtutor-to-learn-vim
+tags: vim
 title: Run vimtutor to learn Vim
 ---
 

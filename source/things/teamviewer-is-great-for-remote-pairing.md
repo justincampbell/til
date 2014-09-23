@@ -1,6 +1,7 @@
 ---
 date: 2012-10-04
 slug: teamviewer-is-great-for-remote-pairing
+tags: tools
 title: TeamViewer is great for remote pairing
 ---
 

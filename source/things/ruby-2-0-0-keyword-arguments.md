@@ -1,6 +1,7 @@
 ---
 date: 2012-11-05
 slug: ruby-2-0-0-keyword-arguments
+tags: ruby
 title: Ruby 2.0.0 keyword arguments
 ---
 

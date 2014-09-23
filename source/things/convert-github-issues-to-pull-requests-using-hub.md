@@ -1,6 +1,7 @@
 ---
 date: 2013-01-16
 slug: convert-github-issues-to-pull-requests-using-hub
+tags: git,tools
 title: Convert Github issues to pull-requests using hub
 ---
 

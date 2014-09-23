@@ -1,6 +1,7 @@
 ---
 date: 2013-10-24
 slug: prompt_command-and-a-simpler-git-prompt
+tags: git,shell
 title: PROMPT_COMMAND, and a simpler git prompt
 ---
 

@@ -1,6 +1,7 @@
 ---
 date: 2013-07-01
 slug: annotate-ruby-code-in-vim-with-xmpfilter
+tags: ruby,vim
 title: Annotate Ruby code in Vim with xmpfilter
 ---
 

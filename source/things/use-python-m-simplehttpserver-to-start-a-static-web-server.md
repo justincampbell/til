@@ -1,6 +1,7 @@
 ---
 date: 2012-10-12
 slug: use-python-m-simplehttpserver-to-start-a-static-web-server
+tags: python
 title: Use python -m SimpleHTTPServer to start a static web server
 ---
 

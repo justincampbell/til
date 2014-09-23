@@ -1,6 +1,7 @@
 ---
 date: 2012-12-18
 slug: methods-are-implicit-exception-blocks
+tags: ruby
 title: Methods are implicit exception blocks
 ---
 

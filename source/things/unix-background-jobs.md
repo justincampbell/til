@@ -1,6 +1,7 @@
 ---
 date: 2013-06-10
 slug: unix-background-jobs
+tags: shell
 title: Unix Background Jobs
 ---
 

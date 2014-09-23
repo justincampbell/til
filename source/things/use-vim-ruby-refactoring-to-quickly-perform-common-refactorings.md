@@ -1,6 +1,7 @@
 ---
 date: 2012-11-13
 slug: use-vim-ruby-refactoring-to-quickly-perform-common-refactorings
+tags: ruby,vim
 title: Use vim-ruby-refactoring to quickly perform common refactorings
 ---
 
