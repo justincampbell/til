@@ -1,3 +1,11 @@
+set :author_email, "justin@justincampbell.me"
+set :author_name, "Justin Campbell"
+set :author_url, "http://justincampbell.me"
+set :feedburner_url, "http://feeds.feedburner.com/justincampbell/til"
+set :github_url, "https://github.com/justincampbell/til"
+set :site_name, "Today, I Learned..."
+set :site_url, "http://til.justincampbell.me"
+
 Slim::Engine.disable_option_validator!
 
 Time.zone = 'Eastern Time (US & Canada)'
@@ -37,34 +45,6 @@ class MarkdownRenderer < Redcarpet::Render::HTML
 end
 
 helpers do
-  def author_name
-    "Justin Campbell"
-  end
-
-  def author_email
-    "justin@justincampbell.me"
-  end
-
-  def author_url
-    "http://justincampbell.me"
-  end
-
-  def feedburner_url
-    "http://feeds.feedburner.com/justincampbell/til"
-  end
-
-  def github_url
-    "https://github.com/justincampbell/til"
-  end
-
-  def site_name
-    "Today, I Learned..."
-  end
-
-  def site_url
-    "http://til.justincampbell.me"
-  end
-
   def tags
     blog.tags.keys.sort
   end
