@@ -82,9 +82,12 @@ helpers do
     end
 
     more = "\n\n<hr />"
-    html = options[:preview] ? html.split(more)[0] : html.gsub(more, "")
 
-    # raw html
+    if options[:preview]
+      html.split(more)[0]
+    else
+      html.gsub(more, "")
+    end
   end
 
   def link_twitter_usernames(markdown)
