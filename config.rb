@@ -24,6 +24,7 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :relative_assets
+  activate :sitemap, hostname: site_url
 end
 
 activate :google_analytics do |ga|
