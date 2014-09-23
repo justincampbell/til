@@ -1,5 +1,5 @@
 ul.tags
-  li.tag = link_to "all", "/"
+  li = link_to "all", "/"
   - tags.each do |tag|
     li
       - if tag == tagname
