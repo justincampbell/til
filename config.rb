@@ -11,7 +11,6 @@ Slim::Engine.disable_option_validator!
 Time.zone = 'Eastern Time (US & Canada)'
 
 set :css_dir, 'stylesheets'
-set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
 set :slim, layout_engine: :slim
@@ -27,10 +26,9 @@ activate :blog do |blog|
 end
 
 configure :build do
-  activate :asset_hash, exts: %w[css js]
+  activate :asset_hash, exts: %w[css]
   activate :directory_indexes
   activate :minify_css
-  activate :minify_javascript
   activate :relative_assets
   activate :sitemap, hostname: site_url
 end
