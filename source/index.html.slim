@@ -3,6 +3,8 @@
 = partial "_thing", locals: { thing: first_thing }
 
 ul.tags
+  li
+    span all
   - tags.each do |tag|
     li = link_to tag, tag_path(tag)
 
