@@ -1,0 +1,10 @@
+.index
+  - things.each do |thing|
+    = link_to thing.url do
+      .row
+        .title = thing.title
+        ul.tags
+          - thing.tags.each do |tag|
+            li = tag
+        small.timestamp title=thing.date.iso8601
+          = thing.date.strftime("%B #{thing.date.day.to_ordinal}, %Y")

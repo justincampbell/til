@@ -8,13 +8,4 @@ ul.tags
   - tags.each do |tag|
     li = link_to tag, tag_path(tag)
 
-.index
-  - other_things.each do |thing|
-    = link_to thing.url do
-      .row
-        .title = thing.title
-        ul.tags
-          - thing.tags.each do |tag|
-            li = tag
-        small.timestamp title=thing.date.iso8601
-          = thing.date.strftime("%B #{thing.date.day.to_ordinal}, %Y")
+= partial '_thing_list', locals: { things: other_things }
