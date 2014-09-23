@@ -1,7 +1,7 @@
 ul.tags
   li.tag = link_to "all", "/"
   - tags.each do |tag|
-    li.tag
+    li
       - if tag == tagname
         span = tag
       - else

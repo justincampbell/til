@@ -1,5 +1,10 @@
 article.thing
   .body = markdown remove_frontmatter(File.read(thing.source_file))
+  small
+    ul.tags
+      - thing.tags.each do |tag|
+        li = link_to tag, tag_path(tag)
+
   small.timestamp
     = link_to thing.date.strftime("%B #{thing.date.day.to_ordinal}, %Y"),
       thing.url,

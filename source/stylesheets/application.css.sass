@@ -86,10 +86,24 @@ h2#byline
     overflow: hidden
     text-overflow: ellipsis
 
+  .tags
+    display: inline-block
+    float: left
+    font: 0.8em 'Quando' serif
+    margin: 0
+    padding: 0
+
+    li
+      border: 1px solid black
+      margin: 0 0.5em 0 0
+      padding: 0.25em
+
   a
     color: $text-color
 
 .thing
+  margin-bottom: 2em
+
   .body
     background: $thing-bg
     border-bottom: 0.25em $border-color solid
@@ -100,6 +114,12 @@ h2#byline
       display: block
       margin: 0 auto
       max-width: 100%
+
+  .tags
+    display: inline-block
+    float: left
+    margin: 0
+    padding: 0
 
 small, small > a
   color: $small-color
