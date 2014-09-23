@@ -2,7 +2,7 @@
 date: 2012-12-18
 slug: methods-are-implicit-exception-blocks
 tags: ruby
-title: Methods are implicit exception blocks
+title: Ruby methods are implicit exception blocks
 ---
 
 Methods are implicit exception blocks, so it's possible to `rescue`/`ensure` from them without a `begin` block:

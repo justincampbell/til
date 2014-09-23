@@ -2,7 +2,7 @@
 date: 2013-05-13
 slug: vim-zt
 tags: vim
-title: Vim zt
+title: Scroll the current line to the top of the window in Vim
 ---
 
 Vim `zt` scrolls the current line to the top of the window.

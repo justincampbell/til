@@ -2,7 +2,7 @@
 date: 2012-10-23
 slug: grab-the-last-argument-from-the-last-command-in-bash-with-esc-period
 tags: shell
-title: Grab the last argument from the last command in bash with Esc+.
+title: Grab the last argument from the last command
 ---
 
 Grab the last argument from the last command in bash with `Esc`+`.`:
