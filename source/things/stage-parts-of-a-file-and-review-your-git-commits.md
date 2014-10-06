@@ -7,10 +7,6 @@ title: Stage parts of a file, and review your git commits
 
 When committing, I used to do a `git diff` to see what has been changed (most of the time), and then a brute-force `git add .`, `git commit -m ...`. This tends to end up with junk being committed along with what we wanted, or smushing multiple change ideas into a single "save point".
 
-Commits are what our team members see when looking at the history of a project's changes. They're also breadcrumbs to help us figure out _why_ something was done, and we can never predict when and where that question will be. We should treat them with the same care and thoughtfulness as the code itself.
-
-So how can we commit better?
-
 My favorite tool is `git add -p` (short for `--patch`). It shows you each hunk of changes you're about to commit, and asks you what to do with it:
 
 ```diff
@@ -105,3 +101,5 @@ For reference, there are quite a few options for `git add -p`. If we type `?`, g
     s - split the current hunk into smaller hunks
     e - manually edit the current hunk
     ? - print help
+
+Commits are what our team members see when looking at the history of a project's changes. They're also breadcrumbs to help us figure out _why_ something was done, and we can never predict when and where that question will be. We should treat them with the same care and thoughtfulness as the code itself.
