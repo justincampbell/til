@@ -1,7 +1,7 @@
 ---
 date: 2014-09-29
 slug: lock-os-x-from-the-command-line-tmux
-tags: shell
+tags: shell,tmux
 title: Lock OS X from the command line/tmux
 ---
 
