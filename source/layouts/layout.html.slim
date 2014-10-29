@@ -5,7 +5,7 @@ html
     = stylesheet_link_tag :application
     = tag :link, href: feedburner_url, rel: :alternate, title: site_name, type: 'application/atom+xml'
     = tag :meta, name: :viewport, content: 'width=device-width'
-  body
+  body style="background-image: #{GeoPattern.generate(title).uri_image}"
     .wrapper
       header
         = link_to "/" do
