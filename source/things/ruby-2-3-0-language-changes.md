@@ -1,5 +1,5 @@
 ---
-date: 2015-11-12
+date: 2015-11-17
 slug: ruby-2-3-0-language-changes
 tags: ruby
 title: Ruby 2.3.0 Language Changes
@@ -37,6 +37,28 @@ a&.round # => 1
 b&.round # => nil
 
 nil&.none&.of&.these&.methods&.exist # => nil
+```
+
+# Hash#dig/Array#dig
+
+```rb
+data = {
+  users: [
+    {
+      name: "Justin",
+      cats: [
+        { name: "Tallie"},
+        { name: "Zack"}
+      ]
+    }
+  ]
+}
+
+data[:users][0][:cats][0][:name] # => "Tallie"
+data[:users][0][:dogs][0][:name] # NoMethodError: undefined method `[]' for nil:NilClass
+
+data.dig(:users, 0, :cats, 0, :name) # => "Tallie"
+data.dig(:users, 0, :dogs, 0, :name) # => nil
 ```
 
 # [did\_you\_mean.gem is bundled](https://bugs.ruby-lang.org/issues/11252)
