@@ -40,7 +40,7 @@ resource "aws_s3_bucket" "logs" {
 }
 
 resource "template_file" "policy" {
-  filename = "policy.json"
+  template = "${file("${path.module}/policy.json")}"
 
   vars {
     bucket = "${var.bucket}"
