@@ -11,12 +11,13 @@ html
         = link_to "/" do
           h1 = site_name
         h2#byline by #{link_to author_name, author_url}
+
       = yield
 
       footer
         | Thanks for reading!
         = link_to author_url do
-          .signature -Justin
+          .signature &mdash;Justin
 
         p
           small = link_to "View source on GitHub", github_url
